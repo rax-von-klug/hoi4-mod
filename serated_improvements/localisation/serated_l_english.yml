@@ -1,0 +1,16 @@
+﻿l_english:
+  serated_decision:0 "Serated Game Improvements"
+  serated_decision:0 "This decision group contains various game improvements"
+  research_decision:0 "Research Improvements ON"
+  research_decision_off:0 "Research Improvements OFF"
+  construction_decision:0 "Construction Imporvements ON"
+  construction_decision_off:0 "Construction Improvements OFF"
+  resources_decision:0 "Resource Improvemets ON"
+  resources_decision_off:0 "Resource Improvements OFF"
+  shipbuilding_decision:0 "Ship Building Improvements ON"
+  shipbuilding_decision_off:0 "Ship Building Improvements OFF"
+
+  serated_research_idea:0 "Research Improvements"
+  serated_construction_idea:0 "Construction Improvements"
+  serated_resources_idea:0 "Resource Improvements"
+  serated_shipbuilding_idea:0 "Ship Building Improvements"
