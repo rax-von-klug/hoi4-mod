@@ -174,4 +174,89 @@ serated_decision = {
       factor = 0
     }
   }
+
+  add_fieldmarshal_decision = {
+    allowed = {
+      always = yes
+    }
+    available = {
+      is_ai = no
+    }
+    visible = {
+      has_manpower > 0
+    }
+    cost = 0
+    fire_only_once = yes
+    days_remove = 5
+    complete_effect = {
+      create_field_marshal = {
+        name = "George Marshall"
+        picture = "Portrait_USA_georgemarshall.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+
+      create_field_marshal = {
+        name = "Omar Bradley"
+        picture = "Portrait_USA_Omar_Bradley.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+
+      create_field_marshal = {
+        name = "Joseph Stilwell"
+        picture = "Portrait_USA_Joseph_Stilwell.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+
+      create_field_marshal = {
+        name = "Jacob Devers"
+        picture = "Portrait_USA_Jacob_L_Devers.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+
+      create_field_marshal = {
+        name = "Mark Clark"
+        picture = "Portrait_USA_Mark_W_Clark.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+
+      create_field_marshal = {
+        name = "Dwight D. Eisenhower"
+        picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
+        traits = { }
+        skill = 9
+        attack_skill = 8
+        defense_skill = 3
+        planning_skill = 8
+        logistics_skill = 8
+      }
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
 }
