@@ -13,6 +13,9 @@
   political_decision_off:0 "Political Improvements OFF"
   military_decision:0 "Military Improvements ON"
   military_decision_off:0 "Military Improvements OFF"
+  add_fieldmarshals_decision:0 "Add Field Marshals"
+  add_generals_decision:0 "Add Generals"
+  add_admirals_decision:0 "Add Admirals"
 
   serated_research_idea:0 "Research Improvements"
   serated_construction_idea:0 "Construction Improvements"
