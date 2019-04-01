@@ -1,5 +1,5 @@
 serated_decision = {
-  icon = generic_political_actions
+  icon = decision_category_ger_military_buildup
   allowed = {
     always = yes
   }
