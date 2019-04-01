@@ -1,0 +1,64 @@
+ideas = {
+  country = {
+    serated_research_idea = {
+      picture = generic_research_bonus
+      removal_cost = -1
+      modifier = {
+        research_speed_factor = 1000
+      }
+    }
+
+    serated_construction_idea = {
+      picture = generic_production_bonus
+      removal_cost = -1
+      modifier = {
+        global_building_slots_factor = 9
+        production_speed_buildings_factor = 10
+        consumer_goods_factory = -9
+      }
+    }
+
+    serated_resources_idea = {
+      picture = generic_production_bonus
+      removal_cost = -1
+      modifier = {
+        local_resources = 9
+        local_resources_factor = 9
+      }
+    }
+
+    serated_shipbuilding_idea = {
+      picture = generic_naval
+      removal_cost = -1
+      modifier = {
+        industrial_capacity_dockyard = 20
+      }
+    }
+
+    serated_political_idea = {
+      picture = generic_production_bonus
+      removal_cost = -1
+      modifier = {
+        command_power_gain = 150
+        political_power_factor = 1.50
+        political_power_gain = 150
+        stability_weekly = 150
+        war_support_weekly = 150
+      }
+    }
+
+    serated_military_idea = {
+      picture = generic_infantry_bonus
+      removal_cost = -1
+      modifier = {
+        experience_gain_air_factor = 2
+        experience_gain_air = 200
+        experience_gain_army_factor = 2
+        experience_gain_army = 200
+        experience_gain_navy_factor = 2
+        experience_gain_navy = 200
+        local_manpower = 9
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+serated_decision = {
+  icon = generic_political_actions
+  allowed = {
+    always = yes
+  }
+}
