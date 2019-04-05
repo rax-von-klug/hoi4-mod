@@ -289,3 +289,271 @@ serated_naval_decision = {
 			factor = 0
 		}
 	}
+	shipbuilding_decision = {
+		icon = generic_naval
+		allowed = {
+			always = yes
+		}
+		available = {
+			is_ai = no
+		}
+		visible = {
+			NOT = {
+				has_country_flag = shipbuilding_decision_on
+			}
+		}
+		cost = 0
+		complete_effect = {
+			set_country_flag = shipbuilding_decision_on
+			add_ideas = navy_shipbuilding_idea
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	shipbuilding_decision_off = {
+		icon = generic_naval
+		allowed = {
+			always = yes
+		}
+		available = {
+			is_ai = no
+		}
+		visible = {
+			has_country_flag = shipbuilding_decision_on
+		}
+		cost = 0
+		complete_effect = {
+			clr_country_flag = shipbuilding_decision_on
+			remove_idea = navy_shipbuilding_idea
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_admirals = {
+		icon = generic_naval
+		allowed = {
+			always = yes
+		}
+		available = {
+			is_ai = no
+		}
+		visible = {
+			has_manpower > 0
+		}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 5
+		complete_effect = {
+			create_navy_leader = {
+				name = "Alan Kirk"
+				picture = "Portrait_USA_Alan_G_Kirk.dds"
+				traits = { chief_engineer bold seawolf superior_tactician spotter arctic_water_expert inshore_fighter blue_water_expert green_water_expert silent_hunter torpedo_expert lancer loading_drill_master hunter_killer lone_wolf concealment_expert }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Aubrey Fitch"
+				picture = "Portrait_USA_Aubrey_W_Fitch.dds"
+				traits = { chief_engineer bold seawolf superior_tactician spotter arctic_water_expert inshore_fighter blue_water_expert green_water_expert silent_hunter torpedo_expert lancer loading_drill_master hunter_killer lone_wolf concealment_expert }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Husband E. Kimmel"
+				picture = "Portrait_USA_Husband_E_Kimmel.dds"
+				traits = { chief_engineer bold seawolf superior_tactician spotter arctic_water_expert inshore_fighter blue_water_expert green_water_expert silent_hunter torpedo_expert lancer loading_drill_master hunter_killer lone_wolf concealment_expert }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "John McCain Sr."
+				picture = "Portrait_USA_John_S_McCain_Sr.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Jonas Ingram"
+				picture = "Portrait_USA_Jonas_Ingram.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Olaf M. Hustvedt"
+				picture = "Portrait_USA_Olaf_M_Hustvedt.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Royal E. Ingersoll"
+				picture = "Portrait_USA_Royal_E_Ingersoll.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Thomas C. Hart"
+				picture = "Portrait_USA_Thomas_C._Hart.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Walden L. Ainsworth"
+				picture = "Portrait_USA_Walden_Ainsworth.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Willis A. Lee"
+				picture = "Portrait_USA_Willis_A_Lee.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Ernest King"
+				picture = "Portrait_USA_Earnest_King.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Chester W. Nimitz"
+				picture = "Portrait_USA_Chester_W_Nimitz.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "William Halsey, Jr."
+				picture = "Portrait_USA_William_Halsey_Jr.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Frank Jack Fletcher"
+				picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Raymond A. Spruance"
+				picture = "Portrait_USA_Raymond_A_Spruance.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside air_controller arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Harold Rainsford Stark"
+				picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Arleigh Burke"
+				picture = "Portrait_USA_Arleigh_Burke.dds"
+				traits = { chief_engineer bold seawolf superior_tactician spotter arctic_water_expert inshore_fighter blue_water_expert green_water_expert silent_hunter torpedo_expert lancer loading_drill_master hunter_killer lone_wolf concealment_expert }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+			create_navy_leader = {
+				name = "Charles M. Cooke, Jr."
+				picture = "Portrait_USA_Charles_M_Cooke.dds"
+				traits = { chief_engineer bold fleet_protector superior_tactician spotter fly_swatter ironside arctic_water_expert inshore_fighter blue_water_expert green_water_expert destroyer_leader hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert big_guns_expert ground_pounder safety_first marksman crisis_magician }
+				skill = 9
+				attack_skill = 10
+				defense_skill = 10
+				maneuvering_skill = 10
+				coordination_skill = 10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	purge_navy = {
+		icon = generic_naval
+		allowed = {
+			always = yes
+		}
+		available = {
+			is_ai = no
+		}
+		visible = {
+			any_navy_leader = {
+					is_assigned = no
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 30
+		cost = 0
+		complete_effect = {
+			every_navy_leader = {
+				retire = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

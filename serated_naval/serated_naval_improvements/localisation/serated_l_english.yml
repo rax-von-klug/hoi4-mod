@@ -3,3 +3,9 @@
   serated_naval_decision_desc:0 "Add Ship Variants and Navy Improvements"
   research_all_navy_tech:0 "Reserch All Naval Technologies"
   add_ship_variants_all:0 "Add All 1944 Ship Variants"
+  shipbuilding_decision:0 "Ship Building Improvements ON"
+  shipbuilding_decision_off:0 "Ship Building Improvements OFF"
+  add_admirals:0 "Add More Admirals"
+  purge_navy:0 "Purge Naval Leadership"
+
+  navy_shipbuilding_idea:0 "Ship Building Improvements"

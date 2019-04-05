@@ -1,4 +1,4 @@
-name="Serated Naval Improvements"
+﻿name="Serated Naval Improvements"
 path="mod/serated_naval_improvements/"
 tags={
 	"Gameplay"
