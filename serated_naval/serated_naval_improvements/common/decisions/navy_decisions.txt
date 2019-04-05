@@ -176,25 +176,6 @@ serated_naval_decision = {
         }
       }
       create_equipment_variant = {
-          name = "Baltimore-class Heavy Cruiser"
-          type = ship_hull_cruiser_4
-          name_group = USA_CA_HISTORICAL
-          parent_version = 0
-          modules = {
-            fixed_ship_battery_slot = ship_medium_battery_4
-            fixed_ship_anti_air_slot = ship_anti_air_4
-            fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-            fixed_ship_radar_slot = ship_radar_4
-            fixed_ship_engine_slot = cruiser_ship_engine_4
-            fixed_ship_secondaries_slot = dp_ship_secondaries
-            fixed_ship_armor_slot = ship_armor_cruiser_4
-            front_1_custom_slot = ship_medium_battery_4
-            mid_1_custom_slot = ship_medium_battery_4
-            mid_2_custom_slot = ship_airplane_launcher_2
-            rear_1_custom_slot = ship_anti_air_4
-        }
-      }
-      create_equipment_variant = {
         name = "Baltimore-class Heavy Cruiser"
         type = ship_hull_cruiser_4
         name_group = USA_CA_HISTORICAL
@@ -211,6 +192,96 @@ serated_naval_decision = {
           mid_1_custom_slot = ship_medium_battery_4
           mid_2_custom_slot = ship_airplane_launcher_2
           rear_1_custom_slot = ship_anti_air_4
+          rear_2_custom_slot = ship_medium_battery_4
+        }
+      }
+      create_equipment_variant = {
+        name = "Atlanta-class Light Cruiser"
+        type = ship_hull_cruiser_4
+        name_group = USA_CLAA_HISTORICAL
+        parent_version = 0
+        modules = {
+          fixed_ship_battery_slot = ship_light_medium_battery_4
+          fixed_ship_anti_air_slot = ship_anti_air_4
+          fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+          fixed_ship_radar_slot = ship_radar_4
+          fixed_ship_engine_slot = cruiser_ship_engine_4
+          fixed_ship_secondaries_slot = dp_ship_secondaries
+          fixed_ship_armor_slot = ship_armor_cruiser_4
+          front_1_custom_slot = ship_anti_air_4
+          mid_1_custom_slot = ship_anti_air_4
+          mid_2_custom_slot = ship_anti_air_4
+          rear_1_custom_slot = ship_anti_air_4
+          rear_2_custom_slot = ship_anti_air_4
+        }
+      }
+      create_equipment_variant = {
+        name = "Cleveland-class Light Cruiser"
+        type = ship_hull_cruiser_4
+        name_group = USA_CL_HISTORICAL
+        parent_version = 0
+        modules = {
+          fixed_ship_battery_slot = ship_light_medium_battery_4
+          fixed_ship_anti_air_slot = ship_anti_air_4
+          fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+          fixed_ship_radar_slot = ship_radar_4
+          fixed_ship_engine_slot = cruiser_ship_engine_4
+          fixed_ship_secondaries_slot = dp_ship_secondaries
+          fixed_ship_armor_slot = ship_armor_cruiser_4
+          front_1_custom_slot = ship_anti_air_4
+          mid_1_custom_slot = ship_light_medium_battery_4
+          mid_2_custom_slot = ship_light_medium_battery_4
+          rear_1_custom_slot = ship_light_medium_battery_4
+          rear_2_custom_slot = ship_airplane_launcher_2
+        }
+      }
+      create_equipment_variant = {
+        name = "John C. Butler-class Destroyer Escort"
+        type = ship_hull_light_4
+        name_group = USA_DE_HISTORICAL
+        parent_version = 0
+        modules = {
+          fixed_ship_battery_slot = ship_light_battery_4
+          fixed_ship_anti_air_slot = ship_anti_air_4
+          fixed_ship_fire_control_system_slot = ship_sonar_2
+          fixed_ship_radar_slot = ship_radar_4
+          fixed_ship_torpedo_slot = ship_torpedo_4
+          fixed_ship_engine_slot = light_ship_engine_4
+          front_1_custom_slot = ship_depth_charge_4
+          mid_1_custom_slot = ship_depth_charge_4
+          mid_2_custom_slot = ship_depth_charge_4
+          rear_1_custom_slot = ship_torpedo_4
+        }
+      }
+      create_equipment_variant = {
+        name = "Allen M. Sumner-class Destroyer"
+        type = ship_hull_light_4
+        name_group = USA_DD_HISTORICAL
+        parent_version = 0
+        modules = {
+          fixed_ship_battery_slot = ship_light_battery_4
+          fixed_ship_anti_air_slot = ship_anti_air_4
+          fixed_ship_fire_control_system_slot = ship_sonar_2
+          fixed_ship_radar_slot = ship_radar_4
+          fixed_ship_torpedo_slot = ship_torpedo_4
+          fixed_ship_engine_slot = light_ship_engine_4
+          front_1_custom_slot = ship_light_battery_4
+          mid_1_custom_slot = ship_depth_charge_4
+          mid_2_custom_slot = ship_torpedo_4
+          rear_1_custom_slot = ship_torpedo_4
+        }
+      }
+      create_equipment_variant = {
+        name = "Tench-class Submarine"
+        type = ship_hull_submarine_4
+        name_group = USA_SS_HISTORICAL
+        parent_version = 0
+        modules = {
+          fixed_ship_torpedo_slot = ship_torpedo_sub_4
+          fixed_ship_engine_slot = sub_ship_engine_4
+          front_1_custom_slot = ship_torpedo_sub_4
+          mid_1_custom_slot = ship_radar_4
+          rear_1_custom_slot = ship_torpedo_sub_4
         }
       }
     }
