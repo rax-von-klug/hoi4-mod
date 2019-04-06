@@ -1,0 +1,6 @@
+serated_civilian_decision = {
+  icon = cat_naval_treaty
+  allowed = {
+    always = yes
+  }
+}
