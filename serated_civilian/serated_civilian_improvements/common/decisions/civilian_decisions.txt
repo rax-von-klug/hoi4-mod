@@ -1,0 +1,177 @@
+serated_civilian_decision = {
+    research_decision = {
+        icon = generic_research
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            NOT = {
+                has_country_flag = research_decision_on
+            }
+        }
+        cost = 0
+        complete_effect = {
+            set_country_flag = research_decision_on
+            add_ideas = serated_research_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    research_decision_off = {
+        icon = generic_research
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            has_country_flag = research_decision_on
+        }
+        cost = 0
+        complete_effect = {
+            clr_country_flag = research_decision_on
+            remove_idea = serated_research_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    construction_decision = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            NOT = {
+                has_country_flag = construction_decision_on
+            }
+        }
+        cost = 0
+        complete_effect = {
+            set_country_flag = construction_decision_on
+            add_ideas = serated_construction_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    construction_decision_off = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            has_country_flag = construction_decision_on
+        }
+        cost = 0
+        complete_effect = {
+            clr_country_flag = construction_decision_on
+            remove_idea = serated_construction_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    resources_decision = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            NOT = {
+                has_country_flag = resources_decision_on
+            }
+        }
+        cost = 0
+        complete_effect = {
+            set_country_flag = resources_decision_on
+            add_ideas = serated_resources_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    resources_decision_off = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            has_country_flag = resources_decision_on
+        }
+        cost = 0
+        complete_effect = {
+            clr_country_flag = resources_decision_on
+            remove_idea = serated_resources_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    political_decision = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            NOT = {
+                has_country_flag = political_decision_on
+            }
+        }
+        cost = 0
+        complete_effect = {
+            set_country_flag = political_decision_on
+            add_ideas = serated_political_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    political_decision_off = {
+        icon = generic_production_bonus
+        allowed = {
+            always = yes
+        }
+        available = {
+            is_ai = no
+        }
+        visible = {
+            has_country_flag = political_decision_on
+        }
+        cost = 0
+        complete_effect = {
+            clr_country_flag = political_decision_on
+            remove_idea = serated_political_idea
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
