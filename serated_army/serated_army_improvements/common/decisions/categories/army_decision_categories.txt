@@ -1,0 +1,6 @@
+serated_army_decision = {
+  icon = ger_military_buildup
+  allowed = {
+    always = yes
+  }
+}

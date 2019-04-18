@@ -1,6 +1,6 @@
 ideas= {
     country = {
-        serated_research_idea = {
+        civilian_research_idea = {
             picture = generic_research_bonus
             removal_cost = -1
             modifier = {
@@ -8,7 +8,7 @@ ideas= {
             }
         }
 
-        serated_construction_idea = {
+        civilian_construction_idea = {
             picture = generic_production_bonus
             removal_cost = -1
             modifier = {
@@ -18,7 +18,7 @@ ideas= {
             }
         }
 
-        serated_resources_idea = {
+        civilian_resources_idea = {
             picture = generic_production_bonus
             removal_cost = -1
             modifier = {
@@ -27,7 +27,7 @@ ideas= {
             }
         }
 
-        serated_political_idea = {
+        civilian_political_idea = {
             picture = generic_production_bonus
             removal_cost = -1
             modifier = {

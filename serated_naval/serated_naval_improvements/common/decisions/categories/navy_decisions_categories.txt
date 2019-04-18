@@ -1,5 +1,5 @@
 serated_naval_decision = {
-  icon = cat_naval_treaty
+  icon = naval_treaty
   allowed = {
     always = yes
   }

@@ -1,0 +1,16 @@
+﻿l_english:
+  serated_civilian_decision:0 "Serated Civilian Improvements"
+  serated_civilian_decision_desc:0 "Add Research Boost, Construction Boost, Resource Boosts and Political Boosts"
+  research_decision:0 "Research Improvements ON"
+  research_decision_off:0 "Research Improvements OFF"
+  construction_decision:0 "Construction Imporvements ON"
+  construction_decision_off:0 "Construction Improvements OFF"
+  resources_decision:0 "Resource Improvemets ON"
+  resources_decision_off:0 "Resource Improvements OFF"
+  political_decision:0 "Political Improvements ON"
+  political_decision_off:0 "Political Improvements OFF"
+
+  civilian_research_idea:0 "Research Improvements"
+  civilian_construction_idea:0 "Construction Improvements"
+  civilian_resources_idea:0 "Resource Improvements"
+  civilian_political_idea:0 "Political Improvements"

@@ -1,5 +1,5 @@
 serated_civilian_decision = {
-  icon = cat_naval_treaty
+  icon = decision_category_generic_economy
   allowed = {
     always = yes
   }
